@@ -1,5 +1,5 @@
 package: community.lazycat.app.poetry-popup-book
-version: 1.0.0
+version: 1.0.1
 name: 纸上山河
 description: "An animated 3D pop-up book of classic Chinese poems: turn the paper-cut spreads, read the annotations and hear each poem narrated, with touch zoom and free browsing. Fully offline (MIT)."
 min_os_version: 1.5.0
