@@ -1,0 +1,18 @@
+package: community.lazycat.app.poetry-popup-book
+version: 1.0.0
+name: 纸上山河
+description: "An animated 3D pop-up book of classic Chinese poems: turn the paper-cut spreads, read the annotations and hear each poem narrated, with touch zoom and free browsing. Fully offline (MIT)."
+min_os_version: 1.5.0
+homepage: https://github.com/lxfater/poetry-popup-book
+author: lxfater
+license: MIT
+locales:
+  zh:
+    name: "纸上山河"
+    description: "会动、会朗诵的古诗立体书：翻动纸雕书页，查看注释、听古诗朗诵，支持触摸缩放与自由浏览，完全离线可用（MIT）。"
+  zh_CN:
+    name: "纸上山河"
+    description: "会动、会朗诵的古诗立体书：翻动纸雕书页，查看注释、听古诗朗诵，支持触摸缩放与自由浏览，完全离线可用（MIT）。"
+  en:
+    name: "Poetry Pop-up Book"
+    description: "An animated 3D pop-up book of classic Chinese poems: turn the paper-cut spreads, read annotations and hear narration, with touch zoom. Fully offline (MIT)."

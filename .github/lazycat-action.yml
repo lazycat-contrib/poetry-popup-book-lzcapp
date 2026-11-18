@@ -1,0 +1,31 @@
+version: 1
+
+project:
+  root: .
+  build_config: lzc-build.yml
+  package_file: package.yml
+  output: dist/application.lpk
+  target_arch: amd64
+
+update:
+  strategy: publish
+  allow_downgrade: false
+  # 纯静态站点：版本由本仓库 package.yml 决定；构建期按 UPSTREAM.conf 的固定 commit 拉取上游
+  version_source:
+    type: git
+
+build:
+  toolchains: []
+  run_buildscript: true
+
+# 运行时只用官方 nginx 镜像（manifest 内固定 tag），这里不做镜像管理
+images: []
+
+stores:
+  official:
+    enabled: false
+  private:
+    enabled: true
+    skip_if_version_exists: true
+    name: 纸上山河
+    summary: 会动、会朗诵的古诗立体书：翻动纸雕书页，查看注释、听朗诵，支持触摸缩放，完全离线可用（MIT）。
